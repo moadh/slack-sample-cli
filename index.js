@@ -1,6 +1,6 @@
 var slackTerminal = require('slack-terminalize');
 
-slackTerminal.init('xoxb-token', {
+slackTerminal.init('xoxb-107006198704-lUBE2xYU082sLk3fTWzSBy0f', {
     // slack rtm client options here
     // more info at: https://github.com/slackhq/node-slack-client/blob/master/lib/clients/rtm/client.js
 }, {

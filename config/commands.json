@@ -15,5 +15,13 @@
 
 	"error": {
 		"exclude": true
-	}
+	},
+	
+    "hi-rainman": {
+        "alias": [ "hey-rainman", "how-cold-is-it" ],
+        "help": "hi-rainman how cold it is in [City,Country](default to Paris,France)?",
+        "description": "Want to know just how cold it is?",
+		"endpoint": "https://howcoldisit.com/api/1/weather.json?location={CityCountry}"
+    }
+
 }
