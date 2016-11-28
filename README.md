@@ -1,11 +1,26 @@
-# slack-sample-cli
+#gitKata
+The purpose of this kata is to learn some of the good and effective habits for source control while using git. 
 
-Sample app to work with [slack-terminalize](https://www.npmjs.com/package/slack-terminalize "slack terminalize at npm") with some basic custom commands
+##Introduction
 
-# Setup
+This kata contains 2 workflows 
 
-- Run `npm install` to install the dependencies
-- Paste the `xoxb-token` of your bot integration in `init` function inside `index.js` file
-- Run `node .` to start the app. Now the bot should be listening to the slack team you integrated it with
-- Invite the bot to desired channels with `/invite @<your-bot-name>` and try the sample commands
-- Start with `help` in the channel the bot is listening to
+* Resetting, Checking Out, and Reverting operations
+* Merge and Rebase
+
+We'll go through each of them.
+
+In this Kata we will create a custom bot for our newly created Slack channel.
+
+botty-one : A silly little bot that gives weather informations.
+
+<img src = "https://raw.githubusercontent.com/moadh/bottyslack/master/Capture.PNG" width = 500>
+
+
+we may later include some quote of the day or other services to animate the channel board.
+
+
+
+##Instructions
+
+1. Clone the repo and navigate into the directory in your terminal.
